@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Appointement">
         <activity
-            android:name=".details"
-            android:parentActivityName=".Date"
+            android:name=".AdminViewActivity"
             android:exported="false" />
         <activity
+            android:name=".details"
+            android:exported="false"
+            android:parentActivityName=".Date" />
+        <activity
             android:name=".Date"
-            android:parentActivityName=".MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
